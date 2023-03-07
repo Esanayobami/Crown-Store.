@@ -8,7 +8,7 @@ import Navigation from "./routes/navigation/navigation.component";
 import Authentication from "./routes/authentication/authentication.component";
 
 const Shop = () => {
-  return <h1>I am the shop page</h1>;
+  return <h1>I am the shop page.</h1>;
 };
 
 const App = () => {
