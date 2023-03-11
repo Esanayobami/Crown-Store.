@@ -1,4 +1,4 @@
-import "./productcard.styles.scss"
+import "./productcard.styles.scss";
 
 import Button from  "../button/button.component";
 
