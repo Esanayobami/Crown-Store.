@@ -5,6 +5,7 @@ import { CartContext } from "../../contexts/cart-context";
 
 import "./cart-dropdown.styles.scss";
 
+import CartItem from "../cart-item/CartItem.component";
 
 const CartDropDown = () => {
 
@@ -14,7 +15,9 @@ const CartDropDown = () => {
 
     return ( 
         <div className='cart-dropdown-container' onClick={toggleIsCartOpen}>
-            <div className='cart-items' />
+            <div className='cart-items' >
+                {[].map(item => <CartItem cartItem={item} /> )}
+            </div>
         <Button>GO TO CHECKOUT</Button>
       </div>
      )
